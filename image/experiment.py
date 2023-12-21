@@ -90,7 +90,7 @@ f.DEFINE_float("noise_tau", 0.7, "")
 FLAGS(sys.argv)
 
 ################################################################################
-# Prepare data
+# Setup
 
 OUT_DIR = FLAGS.out_dir
 LOG_DIR = os.path.join(OUT_DIR, "logs")

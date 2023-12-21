@@ -10,7 +10,7 @@ Generative Models (GMs) have attracted considerable attention due to their treme
 
 ## One-line-of-code Data Mollification!
 
-A **very simple additional step** to mollify the data in any training loop to improve the training of likelihood-based generative models.
+**A very simple additional step** to mollify the data in any training loop to improve the training of likelihood-based generative models.
 
 ```python
 noise = sigmoid_schedule(current_iter, N_max=num_mollification_iters)
